@@ -1,6 +1,3 @@
-#!/bin/bash
-
-echo "Starting server..."
 
 read -p "Enter initial RAM (Xms), e.g., 4G: " XMS
 
