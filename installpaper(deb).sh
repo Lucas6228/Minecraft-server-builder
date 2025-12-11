@@ -26,4 +26,4 @@ echo Creating runserver.sh
 curl -o runserver.sh https://raw.githubusercontent.com/Lucas6228/Minecraft-server-builder/refs/heads/main/runserver.sh
 chmod +x runserver.sh
 echo Your server is ready to run!
-echo Run the server with the runserver.sh file in the mcjavaserver directory
+echo Run the server with the runserver.sh file in the mcjavaserver directory. Use a terminal. Dont just double click the file.
