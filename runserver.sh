@@ -1,7 +1,7 @@
 
-read -p "Enter initial RAM (Xms), e.g., 4G: " XMS
+read -p "Enter initial RAM (Xms), e.g., 1G: " XMS
 
-read -p "Enter maximum RAM (Xmx), e.g., 4G: " XMX
+read -p "Enter maximum RAM (Xmx), e.g., 8G: " XMX
 
 read -p "Do you want to run with GUI? (true/false): " NO_GUI
 
