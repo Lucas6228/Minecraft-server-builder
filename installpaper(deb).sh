@@ -7,7 +7,7 @@ sudo apt install -y openjdk-21-jdk
 echo Making folder for server
 mkdir PaperMC1.21.10
 cd PaperMC1.21.10
-echo Downloading server. from a archived site
+echo Downloading server jar
 curl -o server.jar https://fill-data.papermc.io/v1/objects/a61a0585e203688f606ca3a649760b8ba71efca01a4af7687db5e41408ee27aa/paper-1.21.10-117.jar
 echo Starting server for the first time to create files. If it errors. Ignore it
 java -Xms1G -Xmx1G -jar server.jar
