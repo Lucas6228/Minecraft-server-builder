@@ -1,4 +1,4 @@
-
+#!/bin/bash
 read -p "Enter initial RAM (Xms), e.g., 1G: " XMS
 
 read -p "Enter maximum RAM (Xmx), e.g., 8G: " XMX
