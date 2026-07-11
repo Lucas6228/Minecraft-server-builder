@@ -1,1 +1,1 @@
-Creates a PaperMC 1.21.1 minecraft server for you. Currently for Debian(and distros with APT package manager)
+Creates a PaperMC 26.1.2 minecraft server for you. Currently for Debian(and distros with APT package manager)
