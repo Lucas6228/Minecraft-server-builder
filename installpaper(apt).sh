@@ -1,9 +1,9 @@
 echo Updating
 sudo apt update
 sudo apt upgrade
-echo Installing curl
+echo Installing curl and java
 sudo apt install -y curl
-sudo apt install -y openjdk-21-jdk
+sudo apt install -y openjdk-25-jdk
 echo Making folder for server
 mkdir PaperMC26.1.2
 cd PaperMC26.1.2
