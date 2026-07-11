@@ -1,3 +1,4 @@
+#!/bin/bash
 echo Updating
 sudo apt update
 sudo apt upgrade
