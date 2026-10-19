@@ -6,12 +6,17 @@ echo Installing curl and java
 sudo apt install -y curl
 sudo apt install -y openjdk-25-jdk
 echo Making folder for server
-mkdir PaperMC
-cd PaperMC
+mkdir PaperMC26.1.2
+cd PaperMC26.1.2
 
-echo it would insatall plugins rn but im working on the updater so soon it will be added back 
+echo Adding basic plugins.
+mkdir plugins
+cd plugins
+curl -O https://cdn.modrinth.com/data/P1OZGk5p/versions/hIC4C8re/ViaVersion-5.11.0-SNAPSHOT.jar
+curl -O https://cdn.modrinth.com/data/NpvuJQoq/versions/uf4Mgp8c/ViaBackwards-5.11.0-SNAPSHOT.jar
+curl -O https://cdn.modrinth.com/data/TbHIxhx5/versions/ePgt0AZz/ViaRewind-4.1.3-SNAPSHOT.jar
 echo Creating runserver.sh
-cd ..
+ cd ..
 curl -o runserver.sh https://raw.githubusercontent.com/Lucas6228/Minecraft-server-builder/refs/heads/main/runserver.sh
 chmod +x runserver.sh
 
@@ -23,4 +28,4 @@ echo Accepting EULA
 echo For legal reasons. Please read the EULA.
 sed -i 's/eula=false/eula=true/' eula.txt
 echo Your server is ready to run!
-echo Run the server with the runserver.sh file in the PaperMC directory.
+echo Run the server with the runserver.sh file in the PaperMC26.1.2 directory.
